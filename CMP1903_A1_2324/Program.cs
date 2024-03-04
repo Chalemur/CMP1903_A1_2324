@@ -10,9 +10,8 @@ namespace CMP1903_A1_2324
     {
         static void Main(string[] args)
         {
-
-            Testing start = new();
-            start.Main();
+            Testing start = new Testing();  // creates testing object 
+            start.Main();  // runs method of object to start program
         }
     }
 }
